@@ -1,5 +1,5 @@
 body {
-  background-color: blueviolet;
+  background-color: red;
   text-align: center;
 }
 .submit {
@@ -9,7 +9,7 @@ body {
   background-color: green;
 }
 .todo-list {
-  background-color: red;
+  background-color: blueviolet;
   width: 450px;
 }
 .todo-container {
