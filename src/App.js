@@ -5,14 +5,14 @@ import TodoList from './components/todolist'
 
 function App() {
   const [inputText, setInputText] = useState("")
-  const [todos , setTodo] = useState([])
+  const [todos , setTodos] = useState([])
   return (
     <div className="App">
       <header>
         <h1>Anish's TODO list</h1>
       </header>
-      <Form inputText={inputText} todos={todos} setTodo={setTodo} setInputText={setInputText} />
-      <TodoList todos={todos }/>
+      <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} />
+      <TodoList todos={todos} setTodos={ setTodos}/>
     </div>
   );
 }

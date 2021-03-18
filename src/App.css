@@ -56,3 +56,6 @@ body {
 .button-check:hover {
   background-color: white;
 }
+.completed {
+  text-decoration: line-through;
+}
